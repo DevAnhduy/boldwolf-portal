@@ -1,0 +1,12 @@
+.modal-tour-detail-services{
+    display: flex;
+    .modal-tour-detail-form{
+        display: flex;
+        flex-direction: column;
+        .modal-tour-detail-item{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+}

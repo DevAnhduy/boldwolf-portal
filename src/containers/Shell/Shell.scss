@@ -1,0 +1,27 @@
+@import "../../styles/index.scss";
+
+.shell {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #fdf7f2;
+    width: 100vw;
+    .main-content {
+        flex: 1;
+        align-self: stretch;
+        height: 100%;
+        padding: 0 4rem;
+        // overflow: scroll;
+        // overflow-x: hidden;
+    }
+    .shell-wrap {
+        transition: width 300ms;
+    }
+}
+
+.shell-small-wrap {
+    overflow-x: auto;
+    padding: 1rem 2rem;
+
+}

@@ -1,0 +1,138 @@
+.loading-common {
+        position: relative;
+        margin-top: 5rem;
+        #triangle3 {
+                display: block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                height: 50px;
+                width: 50px;
+                margin: -25px 0 0 -25px;
+        }
+
+        #triangle3 span {
+                position: absolute;
+                left: 10px;
+                width: 0;
+                height: 0;
+        }
+
+        #triangle3 span:nth-child(1) {
+                border-top: 30px solid #000000;
+                border-left: 30px solid transparent;
+                -webkit-animation: slice1 2s infinite ease-out;
+                animation: slice1 2s infinite ease-out;
+        }
+
+        #triangle3 span:nth-child(2) {
+                border-bottom: 30px solid #000000;
+                border-right: 30px solid transparent;
+                -webkit-animation: slice2 2s infinite ease-out;
+                animation: slice2 2s infinite ease-out;
+        }
+}
+
+@-webkit-keyframes slice1 {
+        0%,
+        75%,
+        100% {
+                -webkit-transform: translateX(0px);
+                transform: translateX(0px);
+                -webkit-transform: translateX(0px);
+                transform: translateX(0px);
+        }
+        25% {
+                -webkit-transform: translateX(10px);
+                transform: translateX(10px);
+                -webkit-transform: translateX(10px);
+                transform: translateX(10px);
+        }
+        50% {
+                -webkit-transform: translateY(-12px);
+                transform: translateY(-12px);
+                -webkit-transform: translateY(-12px);
+                transform: translateY(-12px);
+        }
+}
+@keyframes slice1 {
+        0%,
+        75%,
+        100% {
+                -webkit-transform: translateX(0px);
+                transform: translateX(0px);
+                -webkit-transform: translateX(0px);
+                transform: translateX(0px);
+        }
+        25% {
+                -webkit-transform: translateX(10px);
+                transform: translateX(10px);
+                -webkit-transform: translateX(10px);
+                transform: translateX(10px);
+        }
+        50% {
+                -webkit-transform: translateY(-12px);
+                transform: translateY(-12px);
+                -webkit-transform: translateY(-12px);
+                transform: translateY(-12px);
+        }
+}
+@-webkit-keyframes slice2 {
+        0%,
+        100% {
+                -webkit-transform: translateX(0px);
+                transform: translateX(0px);
+                -webkit-transform: translateX(0px);
+                transform: translateX(0px);
+        }
+        25% {
+                -webkit-transform: translateX(-10px);
+                transform: translateX(-10px);
+                -webkit-transform: translateX(-10px);
+                transform: translateX(-10px);
+        }
+        50% {
+                -webkit-transform: translateY(12px);
+                transform: translateY(12px);
+                -webkit-transform: translateY(12px);
+                transform: translateY(12px);
+        }
+}
+@keyframes slice2 {
+        0%,
+        100% {
+                -webkit-transform: translateX(0px);
+                transform: translateX(0px);
+                -webkit-transform: translateX(0px);
+                transform: translateX(0px);
+        }
+        25% {
+                -webkit-transform: translateX(-10px);
+                transform: translateX(-10px);
+                -webkit-transform: translateX(-10px);
+                transform: translateX(-10px);
+        }
+        50% {
+                -webkit-transform: translateY(12px);
+                transform: translateY(12px);
+                -webkit-transform: translateY(12px);
+                transform: translateY(12px);
+        }
+}
+
+//////
+.loading-img-common {
+        width: 100%;
+}
+
+///////
+.modal-loading-content {
+        height: 10rem;
+        .description {
+                text-align: center;
+                margin-top: 2rem;
+        }
+        .ant-modal-close-x {
+                display: none !important;
+        }
+}

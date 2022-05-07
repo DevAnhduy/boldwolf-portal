@@ -1,0 +1,31 @@
+@import "../../styles/index.scss";
+.upload-img {
+    .label {
+        margin-bottom: 2rem;
+        span {
+            b {
+                color: $color-primary-dark;
+            }
+        }
+    }
+    .prev-img-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        .prev-img {
+            flex: 0 0 20%;
+        }
+    }
+    .input {
+        input {
+            border: 1px solid rgba(143, 155, 179, 0.2);
+            border-radius: 6px;
+            transition: all 0.5s ease-in-out;
+            padding: 1rem 1.5rem;
+            outline: none;
+            background-color: #f8f8f8;
+            &:hover {
+                background-color: #dbdbdb;
+            }
+        }
+    }
+}

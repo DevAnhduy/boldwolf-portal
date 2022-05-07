@@ -1,0 +1,12 @@
+@import '../../styles/index.scss';
+.team-building{
+    .add-btn{
+        .button-flex{
+            display: flex;
+            .button-teambuilding-type{
+                margin-left: 2rem;
+            }
+        }
+    }
+
+}

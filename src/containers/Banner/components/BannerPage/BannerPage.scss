@@ -1,0 +1,26 @@
+@import "../../../../styles/index.scss";
+
+.banner-homepage {
+    // display: flex;
+    // align-items: flex-start;
+    // .text-in-banner {
+    //     flex:  0 0 65%;
+    // }
+    .upload-image-banner-homepage {
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        justify-content: center;
+        img {
+            width: 100%;
+            height: 40rem;
+            margin-right: 0;
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            margin-top: 3rem;
+            object-fit: contain;
+            margin-bottom: 3rem;
+        }
+    }
+}

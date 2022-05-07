@@ -1,0 +1,52 @@
+$media-md-screen: 1024px;
+$media-md-screen-2: 768px;
+$media-sm-screen: 640px;
+$media-sm-screen-2: 414px;
+
+$color-primary-dark: #0093e9;
+$color-primary-light: #80d0c7;
+$color-primary-2: #24445e;
+$color-primary-3: #185783;
+$color-title: #666c7a;
+
+$color-black: #222b54;
+$color-gray: #8f9bb3;
+$color-white: #fff;
+$color-favourite: #ff0180;
+$color-warning: #ffc100;
+$color-success: #00e096;
+$color-disable: rgba(#8f9bb3, 0.48);
+
+$font-size-heading1: 3.6rem;
+$font-size-heading2: 3.2rem;
+$font-size-heading3: 3rem;
+$font-size-heading4: 2.6rem;
+$font-size-heading5: 2.2rem;
+$font-size-heading6: 1.8rem;
+
+$font-size-subtitle1: 1.5rem;
+$font-size-subtitle2: 1.3rem;
+
+$font-size-paragraph1: 1.6rem;
+$font-size-paragraph2: 1.5rem;
+
+$height-btn-small: 4.5rem;
+$height-btn-large: 6rem;
+
+$header-height: 6.9rem;
+
+$boder-radious: 50px;
+$boder-radious-btn: 5px;
+$border-radius: 0.5rem;
+
+$screen-sm: 420px;
+$screen-md: 768px;
+$screen-lg: 1024px;
+
+$padding-container: 10%;
+$padding-container-md: 8%;
+$padding-container-sm: 5%;
+:export {
+    colorPrimaryDark: $color-primary-dark;
+    colorPrimaryLight: $color-primary-light;
+}

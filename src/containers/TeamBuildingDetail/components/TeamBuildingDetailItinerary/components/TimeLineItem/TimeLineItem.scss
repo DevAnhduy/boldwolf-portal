@@ -1,0 +1,54 @@
+@import "../../../../../../styles/index.scss";
+
+.time-line-wrap {
+    display: flex;
+    justify-content: center;
+    width: max-content;
+    .time-line-icon-wrap {
+        $size: 6rem;
+        width: $size;
+        height: $size;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-bottom: $size;
+        .time-line-icon {
+            width: calc(#{$size} - 3rem);
+            height: calc(#{$size} - 3rem);
+            background-color: $color-primary-light;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 0.2s;
+            &:hover {
+                background-color: $color-primary-dark;
+            }
+            &.active {
+                background-color: $color-primary-dark;
+                width: calc(#{$size} - 1rem);
+                height: calc(#{$size} - 1rem);
+            }
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 1.5px;
+            height: 9rem;
+            background-color: $color-primary-dark;
+            z-index: -1;
+        }
+    }
+    .time-line-label {
+        width: max-content;
+        color: $color-primary-dark;
+        font-size: 2rem;
+        font-weight: bold;
+        margin-left: 3rem;
+        letter-spacing: 1px;
+        @media only screen and (max-width: $screen-sm) {
+            margin-left: 0;
+        }
+    }
+}

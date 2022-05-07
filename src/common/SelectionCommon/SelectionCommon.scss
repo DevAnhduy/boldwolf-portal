@@ -1,0 +1,17 @@
+.select-common {
+    .select {
+        min-width: 20rem;
+        border: 1px solid rgba(143, 155, 179, 0.2);
+        border-radius: 6px;
+        transition: all 0.5s ease-in-out;
+        outline: none;
+        background-color: #f8f8f8;
+
+    }
+
+    .ant-select-selector {
+        height: 4rem !important;
+        display: flex;
+        align-items: center;
+    }
+}

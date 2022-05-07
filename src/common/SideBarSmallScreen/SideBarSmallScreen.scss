@@ -1,0 +1,16 @@
+@import "../../styles/index.scss";
+
+.side-bar-small-screen {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    // @extend %strong-box-shadow;
+    background-color: $color-primary-light;
+    z-index: 3;
+    .item {
+        &.active {
+        }
+    }
+}

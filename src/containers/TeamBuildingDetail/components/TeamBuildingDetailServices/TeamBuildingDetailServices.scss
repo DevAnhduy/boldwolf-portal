@@ -1,0 +1,44 @@
+@import "../../../../styles/index.scss";
+
+.teamBuilding-detail-services {
+    .content {
+        margin: 2rem;
+        .description {
+            margin-bottom: 5rem;
+            font-style: italic;
+            font-weight: 600;
+            &::before {
+                content: "*";
+                color: red;
+            }
+        }
+        .list {
+            list-style: none;
+            .item {
+                display: flex;
+                margin: 1rem;
+                .icon {
+                    margin-right: 1rem;
+                    font-size: 2.5rem;
+                    color: $color-primary-3;
+                    display: flex;
+                    justify-items: center;
+                    align-items: center;
+                }
+                 .item-content {
+                    padding: 0 2rem;
+                    .en {
+                        color: $color-primary-3;
+                    }
+                }
+                .icon-delete {
+                    cursor: pointer;
+                    cursor: pointer;
+                    &:hover {
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+}

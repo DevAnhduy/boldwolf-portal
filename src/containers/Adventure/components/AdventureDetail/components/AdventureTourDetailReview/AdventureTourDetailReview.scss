@@ -1,0 +1,25 @@
+@import '../../../../../../styles/index.scss';
+
+.tour-detail-review {
+    .list {
+        .item {
+            list-style: none;
+            box-shadow: 0 .6rem 1rem rgba(0, 0, 0, 0.178);
+            padding: 1rem 2rem;
+            .author {
+                font-weight: bold;
+                margin-bottom: 1rem;
+            }
+            .review-content-en {
+                color: $color-primary-3;
+            }
+            .icon-delete {
+                font-size: 2rem;
+                cursor: pointer;
+                &:hover {
+                    color: red;
+                }
+            }
+        }
+    }
+}

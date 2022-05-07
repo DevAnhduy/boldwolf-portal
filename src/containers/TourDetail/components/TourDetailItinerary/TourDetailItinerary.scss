@@ -1,0 +1,22 @@
+@import "../../../../styles/index.scss";
+
+.tour-detail-itinerary-wrap {
+    margin: 2rem;
+    .description {
+        text-align: right;
+        margin-bottom: 0;
+    }
+    .content-wrap {
+        display: flex;
+        position: relative;
+        .time-line {
+            flex: 0 0 30%;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+    }
+    .content {
+        width: 100%;
+        margin-left: 3rem;
+    }
+}

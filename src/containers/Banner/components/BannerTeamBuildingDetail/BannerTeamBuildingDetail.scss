@@ -1,0 +1,30 @@
+@import "../../../../styles/index.scss";
+
+.banner-teamBuilding-detail {
+    width: 100%;
+    height: 100%;
+    margin-top: 2rem;
+    .top  {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    
+    .upload-image-banner-teamBuilding-detail {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        img {
+            width: 100%;
+            height: 40rem;
+            margin-right: 0;
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            margin-top: 3rem;
+            object-fit: contain;
+            margin-bottom: 3rem;
+        }
+    }
+}
